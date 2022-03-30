@@ -7,7 +7,7 @@ Each game is labeled by folder and contains the Python file as well as a README.
 The following games are in this folder:
 - Guess the number game vs the computer
 - Magic 8 Ball
-- Rock Paper Sicssors
+- Rock Paper Scissors
 - Hangman
 - Tic Tac Toe for 2 players
 - Snake
