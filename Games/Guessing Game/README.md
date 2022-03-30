@@ -1,3 +1,5 @@
+# Guessing Game
+
 ## Description
 
 This is a simple Guess the number game.
@@ -61,3 +63,5 @@ else:
 
 The game then ends. No play again/replay function was created. To play again the program would have to be re-run.
 Later games I did add replay functions.
+
+The full code is under the Guessing Game.py file including comments
