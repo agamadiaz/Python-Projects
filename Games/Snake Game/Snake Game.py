@@ -3,7 +3,7 @@
 import turtle
 import random
 
-# Defining the size, speed of snake, and size of the food.
+# Defining the size of the game screen, speed of the snake, and size of the food.
 
 WIDTH = 500
 HEIGHT = 500
@@ -110,7 +110,7 @@ def get_random_food_position():
     return (x, y)
 
 
-# Sets the snakes distance
+# Sets the snakes size
 
 
 def get_distance(pos1, pos2):
@@ -120,7 +120,7 @@ def get_distance(pos1, pos2):
     return distance
 
 
-# Sets the start of the game and the reset of the game if there is a collision
+# Sets the start of the game and resets the game if there is a collision
 
 
 def reset():
@@ -135,12 +135,12 @@ def reset():
 
 # Make the actual game play window
 screen = turtle.Screen()
-screen.setup(WIDTH, HEIGHT)  # Set the window dimensions of the game
+screen.setup(WIDTH, HEIGHT)  # Set the window dimensions of the game defined at the start
 screen.title("Snake")
 screen.bgcolor("gray")  # Sets the color of the background
 screen.tracer(0)  # Turns off automatic animation
 
-# Users input for the direction user wants the snake to move
+# Users input for the direction user wants the snake to move (sets which key is assigned which direction)
 screen.listen()
 screen.onkey(move_up, "Up")
 screen.onkey(move_right, "Right")
